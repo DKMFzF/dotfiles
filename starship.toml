@@ -1,0 +1,44 @@
+format = "[](dimmed yellow) $directory$cmd_duration$status [❯](blue) "
+
+add_newline = false
+
+palette = 'custom'
+
+[palettes.custom]
+username = '#47c158'
+dir = 'bright-blue'
+duration = '#cbcb41'
+status = '#b487f4'
+
+[directory]
+style = 'fg:dir'
+format = '[$path]($style)'
+use_os_path_sep = false
+truncation_length = 3
+truncation_symbol = '/'
+
+[cmd_duration]
+style = 'fg:duration'
+format = '[ $duration]($style)'
+
+[status]
+style = 'fg:status'
+format = '[ $int]($style)'
+disabled = false
+
+[directory.substitutions]
+"Projects" = ''
+"Repos" = ''
+"Documents" = ''
+"Downloads" = ''
+"Music" = ''
+"Python" = ''
+"Java" = ''
+"JS" = ''
+"CSharp" = ''
+"Cpp" = ''
+"Unity" = ''
+"University" = ''
+"node_modules" = ''
+".github" = ''
+".git" = ''
