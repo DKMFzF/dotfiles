@@ -31,8 +31,11 @@ Plug 'airblade/vim-gitgutter'   " Показывает изменения из G
 Plug 'jiangmiao/auto-pairs'     " Автозакрытие скобок
 Plug 'preservim/nerdcommenter'  " Комментрии кода
 Plug 'tpope/vim-surround'
-
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neoclide/coc.nvim', {'branch': 'release'} " Поддрежка LSP
+Plug 'pangloss/vim-javascript'                  " Поддержка JavaScript
+Plug 'maxmellon/vim-jsx-pretty'                 " Поддержка JSX
+Plug 'leafgarland/typescript-vim'               " Поддержка TypeScript
+Plug 'peitalin/vim-jsx-typescript'
 
 call plug#end()
 
