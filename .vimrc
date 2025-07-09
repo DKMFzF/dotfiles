@@ -36,6 +36,7 @@ Plug 'pangloss/vim-javascript'                  " Поддержка JavaScript
 Plug 'maxmellon/vim-jsx-pretty'                 " Поддержка JSX
 Plug 'leafgarland/typescript-vim'               " Поддержка TypeScript
 Plug 'peitalin/vim-jsx-typescript'
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 
 call plug#end()
 
